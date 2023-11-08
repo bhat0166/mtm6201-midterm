@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakery</title>
+    <title>Product Page</title>
 
     <link rel="stylesheet" href="css/product.css">
 
@@ -12,10 +12,12 @@
 
 <body>
     <!-- skip link -->
+    <!-- so, everyone can easily use the website with keyboard -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <a href="#footer-content" class="skip-link">Skip to Bottom</a>
     <div class="wrapper">
         <header>
+            <!-- i use svg file to achive the desire layout -->
             <svg class="z" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 81.04 28.62">
                 <defs>
@@ -31,7 +33,7 @@
                     <tspan x="0" y="0">Aroma</tspan>
                 </text>
             </svg>
-
+            <!-- i use svg file to achive the desire layout -->
             <svg class="x" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 49.78 28.62">
                 <defs>
@@ -46,10 +48,8 @@
                 <text class="cls-2" transform="translate(0 22.79)">
                     <tspan x="0" y="0">Eats</tspan>
                 </text>
-            </svg>
-
-        
-
+            </svg>        
+            <!-- container-1 contain logo and bakery name -->
             <div class="container-1">
                 <div class="logo" itemscope itemtype="http://schema.org/Organization">
                     <img class="bakery-logo" src="images/logo.png" alt="aroma eats logo"  itemprop="logo">
@@ -61,7 +61,7 @@
                     </h1>
                 </div>
             </div>
-
+             <!-- In contaier-2, I use a tag to make navigation buttons -->
             <div class="container-2" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" aria-label="Main Navigation">
                 <div class="buttons" role="navigation">
                     <a class="home btn" href="index.html" itemprop="url"><span>Home</span></a>
@@ -71,10 +71,10 @@
             </div>
 
         </header>
-
+        <!-- main start's from here -->
         <main id="main-content"  itemscope itemtype="http://schema.org/WebPage">
           <section class="background">
-
+            <!-- welcome text for the product page -->
             <div class="welcome-text" role="region" aria-label="Welcome to Our Bakery"  itemprop="about">
                 <h2 itemprop="name">Welcome to Our Bakery</h2>
                 
@@ -84,7 +84,7 @@
             <div class="image-banner" role="region" aria-label="Featured Products">
                 
                 <div class="item-card" role="region" aria-label="Doughnuts" itemscope itemtype="http://schema.org/Product">
-
+                     <!-- picture tag for the responsive image -->
                     <picture>
                         <source media="(min-width:768px)" srcset="images/product/doughnuts-768_x_431.jpg">
                         <source media="(min-width:430px)" srcset="images/product/doughnuts-430_x_241.jpg">
@@ -98,7 +98,7 @@
                 </div>
                 
                 <div class="item-card" role="region" aria-label="Battenberg Cake" itemscope itemtype="http://schema.org/Product">
-
+                     <!-- picture tag for the responsive image -->
                     <picture>
                         <source media="(min-width:768px)" srcset="images/product/battenberg-cake-768_x_431.jpg">
                         <source media="(min-width:430px)" srcset="images/product/battenberg-cake-430_x_241.jpg">
@@ -112,7 +112,7 @@
                 </div>
                 
                 <div class="item-card" role="region" aria-label="Browine" itemscope itemtype="http://schema.org/Product">
-
+                     <!-- picture tag for the responsive image -->
                     <picture>
                         <source media="(min-width:768px)" srcset="images/product/brownie-768_x_431.jpg">
                         <source media="(min-width:430px)" srcset="images/product/brownie-430_x_241.jpg">
@@ -126,13 +126,12 @@
                 </div>
                 
                 <div class="item-card" role="region" aria-label="Pretzel" itemscope itemtype="http://schema.org/Product">
-
+                     <!-- picture tag for the responsive image -->
                     <picture>
                         <source media="(min-width:768px)" srcset="images/product/pretzel-768_x_431.jpg">
                         <source media="(min-width:430px)" srcset="images/product/pretzel-430_x_241.jpg">
                         <img class="item-image pretzel" src="images/product/pretzel.jpg" alt="pretzel picture" itemprop="image">
                     </picture>
-
                     
                     <h3 itemprop="name">Pretzel</h3>
                     <p itemprop="description">It is a baked, twisted knot of dough, Pretzel is a popular snack known for its crunchy exterior and soft interior.</p>
@@ -141,12 +140,15 @@
                   
             </div>
           </section>
+          <!-- main end's here -->
         </main>
+        <!-- content for footer starts form hre -->
             <footer id="footer-content" aria-label="Aroma Eats Bakery Footer">
                 <div class="container">
                     <div class="footer-logo">
                         <img src="images/logo.png" alt="logo for the aroma eats">
                     </div>
+                    <!-- company mailing address -->
                     <div class="footer-info">
                         <p >Aroma Eats Bakery</p>
                         <p>569 Woodroof</p>
