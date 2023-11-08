@@ -170,6 +170,13 @@ header {
     width: 100%;
 }
 
+/* .icon{
+    position: relative;
+    top: 7px;
+    right: 25px;
+  } */
+  
+
 .logo img {
     border-radius: 50%;
     width: 200px;

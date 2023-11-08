@@ -200,6 +200,7 @@ header {
     border-radius: 2px;
 }
 
+
 /* css for skip links start's from here */
 .skip-link {
     position: absolute;
@@ -351,7 +352,7 @@ main {
     width: 60%
 }
 
-.left-desc h3 {
+.left-desc h2 {
     font-size: 26px;
 }
 
@@ -368,7 +369,7 @@ main {
     width: 60%
 }
 
-.right-desc h3 {
+.right-desc h2 {
     font-size: 26px;
 }
 
@@ -530,7 +531,7 @@ footer p {
         width: 60%
     }
 
-    .right-desc h3 {
+    .right-desc h2 {
         font-size: 26px;
         padding-left: 30px;
     }
