@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <!-- skip link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#footer-content" class="skip-link">Skip to Bottom</a>
+    <div class="wrapper">
+        <header>
+            <svg class="z" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 81.04 28.62">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #ecc3dc;
+                            font-family: CalistoMT, 'Calisto MT';
+                            font-size: 27px;
+                        }
+                    </style>
+                </defs>
+                <text class="cls-1" transform="translate(0 22.79)">
+                    <tspan x="0" y="0">Aroma</tspan>
+                </text>
+            </svg>
+
+            <svg class="x" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 49.78 28.62">
+                <defs>
+                    <style>
+                        .cls-2 {
+                            fill: #ecc3dc;
+                            font-family: CalistoMT, 'Calisto MT';
+                            font-size: 27px;
+                        }
+                    </style>
+                </defs>
+                <text class="cls-2" transform="translate(0 22.79)">
+                    <tspan x="0" y="0">Eats</tspan>
+                </text>
+            </svg>
+
+            <div class="container-1">
+                <div class="logo" itemscope itemtype="http://schema.org/Organization">
+                    <img class="bakery-logo" src="images/logo.png" alt="aroma eats logo"  itemprop="logo">
+                </div>
+
+                <div class="bakery-name" itemscope itemtype="http://schema.org/Bakery">
+                    <h1 aria-label="Aroma Eats Bakery" itemprop="name">
+                        Aroma Eats Bakery
+                    </h1>
+                </div>
+            </div>
+
+            <div class="container-2" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" aria-label="Main Navigation">
+                <div class="buttons" role="navigation">
+                    <a class="home btn" href="index.html" itemprop="url"><span>Home</span></a>
+                    <a class="social btn" href="product.html" itemprop="url"><span>Products</span></a>
+                    <a class="about-us btn" href="about.html" itemprop="url"><span>About Us</span></a>
+                </div>
+            </div>
+
+        </header>
+        <main id="main-content" itemscope itemtype="http://schema.org/WebPage">
+            <div class="about_bakery" itemprop="about">
+                <h2 itemprop="name">About Aroma Eats Bakery</h2>
+                <p itemprop="description">Welcome to Aroma Eats Bakery, where every bite tells a delicious story!</p>
+            </div>
+            <div class="our_story" itemprop="about">
+                <h2 itemprop="name">Our Story</h2>
+                <p itemprop="description">Aroma Eats Bakery was born out of a passion for creating exceptional baked goods that not only tantalize your taste buds but also fill the air with irresistible scents. It all started in a cozy kitchen, where our founder, Rojer Tall, spent countless hours experimenting with flavors, textures, and recipes. With each creation, the desire to share these delectable treats with the world grew stronger.</p>
+                
+                <p itemprop="description">As our little baking venture evolved, we realized that there was a deep-rooted connection between food and emotions. The aroma of freshly baked bread, the warmth of a just-out-of-the-oven pastry – these are the things that bring people together, create lasting memories, and add a touch of comfort to our lives. This realization became the driving force behind Aroma Eats Bakery.</p>
+            </div>
+            <div class="our_mission" itemprop="about">
+                <h2 itemprop="name">Our Mission</h2>
+                <p itemprop="description">At Aroma Eats Bakery, our mission is simple yet profound: to craft baked goods that not only taste incredible but also transport you to a world of delightful experiences through the power of scent and flavor. We believe in using the finest ingredients, traditional techniques, and a dash of creativity to bring you the most mouthwatering treats.</p>
+            </div> 
+        
+            <div class="contact_us" role="region" aria-label="Contact Form" itemprop="mainContentOfPage">
+                <h2>Contact Us</h2>
+                <form action="mailto:deepanshu544bhatia@gmail.com" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required aria-label="Your name" itemprop="name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-label="Your email address" itemprop="email">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required aria-label="Your message" itemprop="description"></textarea>
+                    
+                    <input type="submit" value="Submit" aria-label="Submit your message">
+                </form> 
+            </div>
+        </main>
+        
+
+        <footer id="footer-content" aria-label="Aroma Eats Bakery Footer">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="logo for the aroma eats">
+                </div>
+                <div class="footer-info">
+                    <p >Aroma Eats Bakery</p>
+                    <p>569 Woodroof</p>
+                    <p>Ottawa</p>
+                    <p>Ontario</p>
+                    <p>(343) 777 9654</p>
+                    <p>info@aromabakery.com</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
