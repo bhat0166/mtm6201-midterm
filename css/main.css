@@ -234,7 +234,7 @@ main {
     background-color: #F2C2EA;
 }
 
-.z {
+.aroma {
     margin: auto;
     max-height: 280px;
     width: 95%;
@@ -259,7 +259,7 @@ main {
 }
 
 
-.x {
+.eats{
     position: absolute;
     top: 0;
     right: 0;
@@ -285,7 +285,7 @@ main {
     }
 }
 
-.y {
+.bakery{
     position: absolute;
     top: 0;
     right: 0;
@@ -484,15 +484,15 @@ footer p {
     }
 
     /* to hide the svg's */
-    .z {
+    .aroma{
         display: none;
     }
 
-    .x {
+    .eats {
         display: none;
     }
 
-    .y {
+    .bakery{
         display: none;
     }
 

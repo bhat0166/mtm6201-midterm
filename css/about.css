@@ -225,7 +225,7 @@ header {
     background-color: #68939b;
 }
 
-.z {
+.aroma {
     margin: auto;
     max-height: 280px;
     width: 95%;
@@ -248,7 +248,7 @@ header {
     }
 }
 
-.x {
+.eats{
     position: absolute;
     top: 0;
     /* Set to 0 to position it at the top */
@@ -417,16 +417,12 @@ footer p {
     }
 
     /* to hide svg's file */
-    .z {
+    .aroma {
 
         display: none;
     }
 
-    .x {
-        display: none;
-    }
-
-    .y {
+    .eats {
         display: none;
     }
 

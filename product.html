@@ -18,7 +18,7 @@
     <div class="wrapper">
         <header>
             <!-- i use svg file to achive the desire layout -->
-            <svg class="z" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+            <svg class="aroma" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 81.04 28.62">
                 <defs>
                     <style>
@@ -34,7 +34,7 @@
                 </text>
             </svg>
             <!-- i use svg file to achive the desire layout -->
-            <svg class="x" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+            <svg class="eats" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 49.78 28.62">
                 <defs>
                     <style>
@@ -48,11 +48,11 @@
                 <text class="cls-2" transform="translate(0 22.79)">
                     <tspan x="0" y="0">Eats</tspan>
                 </text>
-            </svg>        
+            </svg>
             <!-- container-1 contain logo and bakery name -->
             <div class="container-1">
                 <div class="logo" itemscope itemtype="http://schema.org/Organization">
-                    <img class="bakery-logo" src="images/logo.png" alt="aroma eats logo"  itemprop="logo">
+                    <img class="bakery-logo" src="images/logo.png" alt="aroma eats logo" itemprop="logo">
                 </div>
 
                 <div class="bakery-name" itemscope itemtype="http://schema.org/Bakery">
@@ -61,8 +61,9 @@
                     </h1>
                 </div>
             </div>
-             <!-- In contaier-2, I use a tag to make navigation buttons -->
-            <div class="container-2" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" aria-label="Main Navigation">
+            <!-- In contaier-2, I use a tag to make navigation buttons -->
+            <div class="container-2" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation"
+                aria-label="Main Navigation">
                 <div class="buttons" role="navigation">
                     <a class="home btn" href="index.html" itemprop="url"><span>Home</span></a>
                     <a class="social btn" href="product.html" itemprop="url"><span>Products</span></a>
@@ -72,93 +73,105 @@
 
         </header>
         <!-- main start's from here -->
-        <main id="main-content"  itemscope itemtype="http://schema.org/WebPage">
-          <section class="background">
-            <!-- welcome text for the product page -->
-            <div class="welcome-text" role="region" aria-label="Welcome to Our Bakery"  itemprop="about">
-                <h2 itemprop="name">Welcome to Our Bakery</h2>
-                
-                <p itemprop="description">Delight in the Finest Baked Goods</p>
-            </div>
-            
-            <div class="image-banner" role="region" aria-label="Featured Products">
-                
-                <div class="item-card" role="region" aria-label="Doughnuts" itemscope itemtype="http://schema.org/Product">
-                     <!-- picture tag for the responsive image -->
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/product/doughnuts-768_x_431.jpg">
-                        <source media="(min-width:430px)" srcset="images/product/doughnuts-430_x_241.jpg">
-                        <img class="item-image" src="images/product/doughnuts.jpg" alt="doughnut picture" itemprop="image">
-                    </picture>
+        <main id="main-content" itemscope itemtype="http://schema.org/WebPage">
+            <section class="background">
+                <!-- welcome text for the product page -->
+                <div class="welcome-text" role="region" aria-label="Welcome to Our Bakery" itemprop="about">
+                    <h2 itemprop="name">Welcome to Our Bakery</h2>
 
-                   
-                    <h3 itemprop="name">Doughnuts</h3>
-                    <p itemprop="description">A doughnut is a ring-shaped, sweet pastry that can be deep-fried or baked and is often coated with various toppings or fillings.</p>
-                    <p ><span class="item-price">$4.99</span></p>
+                    <p itemprop="description">Delight in the Finest Baked Goods</p>
                 </div>
-                
-                <div class="item-card" role="region" aria-label="Battenberg Cake" itemscope itemtype="http://schema.org/Product">
-                     <!-- picture tag for the responsive image -->
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/product/battenberg-cake-768_x_431.jpg">
-                        <source media="(min-width:430px)" srcset="images/product/battenberg-cake-430_x_241.jpg">
-                        <img class="item-image" src="images/product/battenberg-cake.jpg" alt="picture of a battenberg cake" itemprop="image">
-                    </picture>
 
-                   
-                    <h3 itemprop="name">Battenberg Cake</h3>
-                    <p itemprop="description">It is a British sponge cake with pink and yellow checkered layers, held together with apricot jam and covered in marzipan.</p>
-                    <p><span class="item-price">$2.49</span></p>
-                </div>
-                
-                <div class="item-card" role="region" aria-label="Browine" itemscope itemtype="http://schema.org/Product">
-                     <!-- picture tag for the responsive image -->
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/product/brownie-768_x_431.jpg">
-                        <source media="(min-width:430px)" srcset="images/product/brownie-430_x_241.jpg">
-                        <img class="item-image" src="images/product/brownie.jpg" alt="Browine picture" itemprop="image">
-                    </picture>
+                <div class="image-banner" role="region" aria-label="Featured Products">
 
-                   
-                    <h3 itemprop="name">Browine</h3>
-                    <p itemprop="description">It is a dense, chewy, and often chocolate-flavored dessert square that is typically baked and enjoyed as a sweet treat.</p>
-                    <p><span class="item-price">$1.99</span></p>
+                    <div class="item-card" role="region" aria-label="Doughnuts" itemscope
+                        itemtype="http://schema.org/Product">
+                        <!-- picture tag for the responsive image -->
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/product/doughnuts-768_x_431.jpg">
+                            <source media="(min-width:430px)" srcset="images/product/doughnuts-430_x_241.jpg">
+                            <img class="item-image" src="images/product/doughnuts.jpg" alt="doughnut picture"
+                                itemprop="image">
+                        </picture>
+
+
+                        <h3 itemprop="name">Doughnuts</h3>
+                        <p itemprop="description">A doughnut is a ring-shaped, sweet pastry that can be deep-fried or
+                            baked and is often coated with various toppings or fillings.</p>
+                        <p><span class="item-price">$4.99</span></p>
+                    </div>
+
+                    <div class="item-card" role="region" aria-label="Battenberg Cake" itemscope
+                        itemtype="http://schema.org/Product">
+                        <!-- picture tag for the responsive image -->
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/product/battenberg-cake-768_x_431.jpg">
+                            <source media="(min-width:430px)" srcset="images/product/battenberg-cake-430_x_241.jpg">
+                            <img class="item-image" src="images/product/battenberg-cake.jpg"
+                                alt="picture of a battenberg cake" itemprop="image">
+                        </picture>
+
+
+                        <h3 itemprop="name">Battenberg Cake</h3>
+                        <p itemprop="description">It is a British sponge cake with pink and yellow checkered layers,
+                            held together with apricot jam and covered in marzipan.</p>
+                        <p><span class="item-price">$2.49</span></p>
+                    </div>
+
+                    <div class="item-card" role="region" aria-label="Browine" itemscope
+                        itemtype="http://schema.org/Product">
+                        <!-- picture tag for the responsive image -->
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/product/brownie-768_x_431.jpg">
+                            <source media="(min-width:430px)" srcset="images/product/brownie-430_x_241.jpg">
+                            <img class="item-image" src="images/product/brownie.jpg" alt="Browine picture"
+                                itemprop="image">
+                        </picture>
+
+
+                        <h3 itemprop="name">Browine</h3>
+                        <p itemprop="description">It is a dense, chewy, and often chocolate-flavored dessert square that
+                            is typically baked and enjoyed as a sweet treat.</p>
+                        <p><span class="item-price">$1.99</span></p>
+                    </div>
+
+                    <div class="item-card" role="region" aria-label="Pretzel" itemscope
+                        itemtype="http://schema.org/Product">
+                        <!-- picture tag for the responsive image -->
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/product/pretzel-768_x_431.jpg">
+                            <source media="(min-width:430px)" srcset="images/product/pretzel-430_x_241.jpg">
+                            <img class="item-image pretzel" src="images/product/pretzel.jpg" alt="pretzel picture"
+                                itemprop="image">
+                        </picture>
+
+                        <h3 itemprop="name">Pretzel</h3>
+                        <p itemprop="description">It is a baked, twisted knot of dough, Pretzel is a popular snack known
+                            for its crunchy exterior and soft interior.</p>
+                        <p><span class="item-price">$3.65</span></p>
+                    </div>
+
                 </div>
-                
-                <div class="item-card" role="region" aria-label="Pretzel" itemscope itemtype="http://schema.org/Product">
-                     <!-- picture tag for the responsive image -->
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/product/pretzel-768_x_431.jpg">
-                        <source media="(min-width:430px)" srcset="images/product/pretzel-430_x_241.jpg">
-                        <img class="item-image pretzel" src="images/product/pretzel.jpg" alt="pretzel picture" itemprop="image">
-                    </picture>
-                    
-                    <h3 itemprop="name">Pretzel</h3>
-                    <p itemprop="description">It is a baked, twisted knot of dough, Pretzel is a popular snack known for its crunchy exterior and soft interior.</p>
-                    <p><span class="item-price">$3.65</span></p>
-                </div>
-                  
-            </div>
-          </section>
-          <!-- main end's here -->
+            </section>
+            <!-- main end's here -->
         </main>
         <!-- content for footer starts form hre -->
-            <footer id="footer-content" aria-label="Aroma Eats Bakery Footer">
-                <div class="container">
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="logo for the aroma eats">
-                    </div>
-                    <!-- company mailing address -->
-                    <div class="footer-info">
-                        <p >Aroma Eats Bakery</p>
-                        <p>569 Woodroof</p>
-                        <p>Ottawa</p>
-                        <p>Ontario</p>
-                        <p>(343) 777 9654</p>
-                        <p>info@aromabakery.com</p>
-                    </div>
+        <footer id="footer-content" aria-label="Aroma Eats Bakery Footer">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="logo for the aroma eats">
                 </div>
-            </footer>
+                <!-- company mailing address -->
+                <div class="footer-info">
+                    <p>Aroma Eats Bakery</p>
+                    <p>569 Woodroof</p>
+                    <p>Ottawa</p>
+                    <p>Ontario</p>
+                    <p>(343) 777 9654</p>
+                    <p>info@aromabakery.com</p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 

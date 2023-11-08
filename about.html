@@ -17,7 +17,7 @@
     <div class="wrapper">
         <header>
             <!-- i use svg file to achive the desire layout -->
-            <svg class="z" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+            <svg class="aroma" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 81.04 28.62">
                 <defs>
                     <style>
@@ -33,7 +33,7 @@
                 </text>
             </svg>
             <!-- i use svg file to achive the desire layout -->
-            <svg class="x" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+            <svg class="eats" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 49.78 28.62">
                 <defs>
                     <style>
@@ -51,7 +51,7 @@
             <!-- container-1 contain logo and bakery name -->
             <div class="container-1">
                 <div class="logo" itemscope itemtype="http://schema.org/Organization">
-                    <img class="bakery-logo" src="images/logo.png" alt="aroma eats logo"  itemprop="logo">
+                    <img class="bakery-logo" src="images/logo.png" alt="aroma eats logo" itemprop="logo">
                 </div>
 
                 <div class="bakery-name" itemscope itemtype="http://schema.org/Bakery">
@@ -61,7 +61,8 @@
                 </div>
             </div>
             <!-- In contaier-2, I use a tag to make navigation buttons -->
-            <div class="container-2" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" aria-label="Main Navigation">
+            <div class="container-2" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation"
+                aria-label="Main Navigation">
                 <div class="buttons" role="navigation">
                     <a class="home btn" href="index.html" itemprop="url"><span>Home</span></a>
                     <a class="social btn" href="product.html" itemprop="url"><span>Products</span></a>
@@ -71,7 +72,7 @@
 
         </header>
         <!-- main start's from here -->
-         <!-- here i use main-content as id -->
+        <!-- here i use main-content as id -->
         <!-- so, I can add this id to skip link -->
         <main id="main-content" itemscope itemtype="http://schema.org/WebPage">
             <div class="about_bakery" itemprop="about">
@@ -81,15 +82,26 @@
             <!-- story of aroma eats  bakery -->
             <div class="our_story" itemprop="about">
                 <h2 itemprop="name">Our Story</h2>
-                <p itemprop="description">Aroma Eats Bakery was born out of a passion for creating exceptional baked goods that not only tantalize your taste buds but also fill the air with irresistible scents. It all started in a cozy kitchen, where our founder, Rojer Tall, spent countless hours experimenting with flavors, textures, and recipes. With each creation, the desire to share these delectable treats with the world grew stronger.</p>
-                
-                <p itemprop="description">As our little baking venture evolved, we realized that there was a deep-rooted connection between food and emotions. The aroma of freshly baked bread, the warmth of a just-out-of-the-oven pastry – these are the things that bring people together, create lasting memories, and add a touch of comfort to our lives. This realization became the driving force behind Aroma Eats Bakery.</p>
+                <p itemprop="description">Aroma Eats Bakery was born out of a passion for creating exceptional baked
+                    goods that not only tantalize your taste buds but also fill the air with irresistible scents. It all
+                    started in a cozy kitchen, where our founder, Rojer Tall, spent countless hours experimenting with
+                    flavors, textures, and recipes. With each creation, the desire to share these delectable treats with
+                    the world grew stronger.</p>
+
+                <p itemprop="description">As our little baking venture evolved, we realized that there was a deep-rooted
+                    connection between food and emotions. The aroma of freshly baked bread, the warmth of a
+                    just-out-of-the-oven pastry – these are the things that bring people together, create lasting
+                    memories, and add a touch of comfort to our lives. This realization became the driving force behind
+                    Aroma Eats Bakery.</p>
             </div>
             <!-- mission of aroma eats -->
             <div class="our_mission" itemprop="about">
                 <h2 itemprop="name">Our Mission</h2>
-                <p itemprop="description">At Aroma Eats Bakery, our mission is simple yet profound: to craft baked goods that not only taste incredible but also transport you to a world of delightful experiences through the power of scent and flavor. We believe in using the finest ingredients, traditional techniques, and a dash of creativity to bring you the most mouthwatering treats.</p>
-            </div> 
+                <p itemprop="description">At Aroma Eats Bakery, our mission is simple yet profound: to craft baked goods
+                    that not only taste incredible but also transport you to a world of delightful experiences through
+                    the power of scent and flavor. We believe in using the finest ingredients, traditional techniques,
+                    and a dash of creativity to bring you the most mouthwatering treats.</p>
+            </div>
             <!-- contact us information -->
             <!-- here i use aria label for better accesiblity -->
             <div class="contact_us" role="region" aria-label="Contact Form" itemprop="mainContentOfPage">
@@ -97,15 +109,17 @@
                 <form action="mailto:deepanshu544bhatia@gmail.com" method="post">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required aria-label="Your name" itemprop="name">
-                    
+
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required aria-label="Your email address" itemprop="email">
-                    
+                    <input type="email" id="email" name="email" required aria-label="Your email address"
+                        itemprop="email">
+
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required aria-label="Your message" itemprop="description"></textarea>
-                    
+                    <textarea id="message" name="message" rows="4" required aria-label="Your message"
+                        itemprop="description"></textarea>
+
                     <input type="submit" value="Submit" aria-label="Submit your message">
-                </form> 
+                </form>
             </div>
             <!-- main end's here -->
         </main>
@@ -117,7 +131,7 @@
                     <img src="images/logo.png" alt="logo for the aroma eats">
                 </div>
                 <div class="footer-info">
-                    <p >Aroma Eats Bakery</p>
+                    <p>Aroma Eats Bakery</p>
                     <p>569 Woodroof</p>
                     <p>Ottawa</p>
                     <p>Ontario</p>

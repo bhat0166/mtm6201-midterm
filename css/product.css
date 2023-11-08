@@ -232,7 +232,7 @@ header {
 
 
 
-.z {
+.aroma{
     /* position: absolute;
     top: 20px; */
     margin: auto;
@@ -258,7 +258,7 @@ header {
     }
 }
 
-.x {
+.eats{
     position: absolute;
     top: 0;
     right: 0;
@@ -448,11 +448,11 @@ footer p {
         /* min-width: 485px; */
     }
 
-    .z {
+    .aroma {
         display: none;
     }
 
-    .x {
+    .eats{
         display: none;
     }
 
