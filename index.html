@@ -90,11 +90,13 @@
             </div>
         </header>
         <!-- main start's from here -->
-        <main itemscope itemtype="http://schema.org/WebPage">
+        <!-- here i use main-content as id -->
+        <!-- so, I can add this id to skip link -->
+        <main id="main-content" itemscope itemtype="http://schema.org/WebPage">
             <!-- I use grid-container id so that i can easily use grid property in css -->
             <div class="grid-container">
                 <!-- I use main-content as a id so that i can easily add this link to my skip link -->
-                <div id="main-content" class="left-crd" role="region" aria-label="Featured Products">
+                <div class="left-crd" role="region" aria-label="Featured Products">
                     <div itemscope itemtype="http://schema.org/Product">
                         <!-- picture tag for the responsive image -->
                         <picture>
