@@ -137,7 +137,6 @@ table {
 }
 
 /* css reset code end's here */
-
 /* box sizing */
 
 * {
@@ -145,21 +144,18 @@ table {
 }
 
 /* css code  */
-.wrapper {
-    background-color: #F2C2EA;
-}
 
 header {
     background-color: #68939b;
 }
-
 
 .container-1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    position: relative; /* Add position property */
+    position: relative;
+    /* z index is for layering */
     z-index: 2;
     width: 100%;
 }
@@ -169,7 +165,8 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    position: relative; /* Add position property */
+    position: relative;
+    /* z index for layering */
     z-index: 2;
     width: 100%;
 }
@@ -187,54 +184,41 @@ header {
     color: #F2C2EA;
 }
 
-.buttons a{
+/* style for the navigation */
+.buttons a {
     text-decoration: none;
     font-size: 28px;
     padding-left: 50px;
     padding-right: 50px;
     color: #F2C2EA;
     transition: color 0.2s, transform 0.2s;
-    
+
 }
+
+/* hover effect for the a tag */
 .buttons a:hover {
     color: #484848;
     border-radius: 2px;
 }
 
-a {
-    cursor: pointer; /* Make sure it's not overridden by more specific rules */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* main */
-
-
+/* skiplink css code is here  */
+/* to ensure everyone can eaisly use the website with the help of key board */
 .skip-link {
     position: absolute;
     top: -40px;
-    /* Move it off-screen, adjust as needed */
+    /* to make it hidden*/
     left: 0;
     background-color: #000;
     color: #fff;
     padding: 5px;
     text-align: center;
-    z-index: 999;
+    z-index: 3;
     /* Ensure it appears above other content */
     transition: top 0.3s;
-    /* Add a smooth transition effect */
+    /* smooth transition effect */
 }
 
-/* Style the skip link when focused */
+/* Style for the skip link when focused */
 .skip-link:focus {
     top: 0;
     /* Bring it back into view */
@@ -244,7 +228,6 @@ a {
 .skip-link:focus,
 .skip-link:active {
     background-color: #68939b;
-    /* Change the background color to indicate focus */
 }
 
 
@@ -259,44 +242,55 @@ a {
     position: absolute;
     left: 50px;
     padding-top: 20px;
-    animation: fade 4s ease-in-out infinite 0.5s; 
+    animation: fade 4s ease-in-out infinite 0.5s;
 }
 
+/* keyframe for faded animation */
 @keyframes fade {
-    0%, 100% {
-      opacity: 0;
+
+    0%,
+    100% {
+        opacity: 0;
     }
+
     50% {
-      opacity: 0.2;
+        opacity: 0.2;
     }
-  }
+}
 
 .x {
     position: absolute;
-    top: 0; /* Set to 0 to position it at the top */
-    right: 0; /* Set to 0 to position it at the right */
+    top: 0;
+    right: 0;
     max-height: 280px;
     width: 12%;
     opacity: 0.2;
     padding-top: 20px;
     padding-right: 50px;
-    animation: fade 4s ease-in-out infinite 0.5s; 
+    animation: fade 4s ease-in-out infinite 0.5s;
 }
 
+/* keyframe for faded animation */
 @keyframes fade {
-    0%, 100% {
-      opacity: 0;
+
+    0%,
+    100% {
+        opacity: 0;
     }
+
     50% {
-      opacity: 0.2;
+        opacity: 0.2;
     }
-  }
+}
 
+/* main starts from here */
 
+main {
+    background-color: #F2C2EA;
+}
 
-/* main */
-
-.welcome-text h2{
+/* style for the welcome text  */
+.welcome-text h2 {
     font-weight: 200;
     text-align: center;
     font-size: 26px;
@@ -304,27 +298,12 @@ a {
     padding-top: 20px;
 }
 
-.welcome-text p{
+.welcome-text p {
     font-weight: 200;
     text-align: center;
     font-size: 20px;
-    color:#181818;
+    color: #181818;
     padding-top: 20px;
-}
-
-
-
-.background {
-    opacity: 1;
-    /* filter: grayscale(0); */
-    /* background-image: url(../images/bakery-wallpaper-001-1536x864.jpg);
-    background-size: cover; */
-    /* or background-size: contain; */
-    /* background-position: center center;
-    background-repeat: no-repeat; */
-    /* height: 100%; */
-    /* Set the desired height for your container */
-    /* Other styles for your container, like padding, margin, etc. */
 }
 
 .image-banner {
@@ -333,8 +312,8 @@ a {
     justify-content: space-around;
     padding-top: 2rem;
     max-width: 100%;
-    height:auto;
-    /* This ensures the image scales proportionally */
+    height: auto;
+    /* to ensures that the image scales proportionally */
     line-height: 1.3;
 }
 
@@ -342,7 +321,6 @@ a {
     color: #68939b;
     font-size: 20px;
 }
-
 
 .image-banner p {
     color: black;
@@ -367,12 +345,9 @@ a {
     max-width: 100%;
     height: auto;
     border-radius: 6px;
-    /* filter: blur(0.5); */
-    /* filter: grayscale(0.5); */
 }
 
-.item-image:hover{
-    /* filter: grayscale(0); */
+.item-image:hover {
     transition: transform 0.8s;
     transform: scale(1.09);
     border-radius: 6px;
@@ -387,24 +362,24 @@ a {
     display: inline-block;
 }
 
-.item-price:hover{
+.item-price:hover {
     color: #F2C2EA;
     border-radius: 2px;
     transform: scale(1.05);
 }
 
+/* style for the product description */
 .item-card p {
-    color:#000;
+    color: #000;
     font-size: 16px;
     margin-bottom: 4px;
-    
 }
 
+/* color for the product heading */
 .item-card h3 {
     color: #225b65;
-   
-}
 
+}
 
 /* Basic styling for the footer */
 footer {
@@ -420,8 +395,6 @@ footer {
     align-items: center;
 }
 
-
-
 .footer-logo img {
     width: 80px;
     height: auto;
@@ -434,9 +407,6 @@ footer {
     margin: 5px 0;
 }
 
-.footer-social a {
-    margin-right: 10px;
-}
 
 /* Style for copyright notice */
 footer p {
@@ -445,7 +415,7 @@ footer p {
 }
 
 
-/* media query  */
+/* media query for screen 768px */
 @media screen and (max-width: 768px) {
 
     .logo img {
@@ -479,37 +449,28 @@ footer p {
     }
 
     .z {
-        /* max-width: 1280px;
-        min-width: 890px; */
         display: none;
     }
 
-    .x{
+    .x {
         display: none;
     }
-    
 
-/* main */
+
+    /* media query for main */
     .image-banner {
         background-size: contain;
-        /* Adjust as needed for smaller screens */
         display: grid;
         gap: 20px;
-
     }
 
-
-    /* footer */
+    /* media query for footer */
     .container {
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items:center;
-      }
-
-
-
-
+        align-items: center;
+    }
 }
