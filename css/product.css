@@ -181,7 +181,7 @@ header {
 .bakery-name h1 {
     font-size: 60px;
     font-weight: 300;
-    color: #F2C2EA;
+    color: #ffc3f5;
 }
 
 /* style for the navigation */
@@ -190,7 +190,7 @@ header {
     font-size: 28px;
     padding-left: 50px;
     padding-right: 50px;
-    color: #F2C2EA;
+    color: #ffc3f5;
     transition: color 0.2s, transform 0.2s;
 
 }
@@ -286,7 +286,7 @@ header {
 /* main starts from here */
 
 main {
-    background-color: #F2C2EA;
+    background-color: #ffc3f5;
 }
 
 /* style for the welcome text  */
@@ -363,7 +363,7 @@ main {
 }
 
 .item-price:hover {
-    color: #F2C2EA;
+    color: #ffc3f5;
     border-radius: 2px;
     transform: scale(1.05);
 }
@@ -428,7 +428,7 @@ footer p {
     .bakery-name h1 {
         font-size: 40px;
         font-weight: 300;
-        color: #F2C2EA;
+        color: #ffc3f5;
     }
 
     /* buttons */
@@ -437,7 +437,7 @@ footer p {
         text-decoration: none;
         font-size: 20px;
         padding-left: 10px;
-        color: #F2C2EA;
+        color: #ffc3f5;
     }
 
     .container-2 {
